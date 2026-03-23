@@ -47,12 +47,12 @@ const Hero = () => {
                 </a>
               </Button>
               <Button variant="ghost" size="icon" asChild>
-                <a href="https://github.com/Yogavani" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                <a href="https://github.com/Yogesk12" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
                   <Github className="h-5 w-5" />
                 </a>
               </Button>
               <Button variant="ghost" size="icon" asChild>
-                <a href="https://www.linkedin.com/in/yogavanib11/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                <a href="https://www.linkedin.com/in/yogesh-k-774a98222" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
                   <Linkedin className="h-5 w-5" />
                 </a>
               </Button>

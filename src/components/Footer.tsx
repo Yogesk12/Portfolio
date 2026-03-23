@@ -16,7 +16,7 @@ const Footer = () => {
               <Mail className="h-5 w-5" />
             </a>
             <a 
-              href="https://github.com/Yogavani"
+              href="https://github.com/Yogesk12"
               target="_blank" 
               rel="noopener noreferrer"
               className="text-muted-foreground hover:text-primary transition-colors"
@@ -25,7 +25,7 @@ const Footer = () => {
               <Github className="h-5 w-5" />
             </a>
             <a 
-              href="https://www.linkedin.com/in/yogavanib11/"
+              href="https://www.linkedin.com/in/yogesh-k-774a98222"
               target="_blank" 
               rel="noopener noreferrer"
               className="text-muted-foreground hover:text-primary transition-colors"
