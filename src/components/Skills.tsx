@@ -23,13 +23,13 @@ const skillCategories = [
   {
     title: "Authentication & Security",
     icon: Shield,
-    skills: ["JWT", "OAuth 2.0"],
+    skills: ["JWT", "OAuth 2.0","Hmac" ,"crypto" ,"AES"],
     color: "text-secondary"
   },
   {
     title: "Tools",
     icon: Wrench,
-    skills: ["Docker", "CI/CD", "GitHub", "Jenkins"],
+    skills: ["Git","GitHub","Docker", "CI/CD", "GitHub", "Jenkins" , "Bitbucket" , "postman" ,"netlify"],
     color: "text-primary"
   },
   {

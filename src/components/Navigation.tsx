@@ -45,7 +45,7 @@ const Navigation = () => {
             onClick={() => scrollToSection('home')}
             className="text-xl font-bold gradient-text"
           >
-            Y
+            YG
           </button>
           
           <div className="hidden md:flex space-x-8">
