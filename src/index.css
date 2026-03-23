@@ -1,0 +1,116 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 336 22% 16%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 336 22% 16%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 336 22% 16%;
+
+    --primary: 343 82% 54%;
+    --primary-foreground: 0 0% 8%;
+
+    --secondary: 350 72% 45%;
+    --secondary-foreground: 0 0% 8%;
+
+    --muted: 340 30% 96%;
+    --muted-foreground: 338 12% 42%;
+
+    --accent: 334 74% 48%;
+    --accent-foreground: 0 0% 8%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 340 18% 90%;
+    --input: 340 18% 90%;
+    --ring: 343 82% 54%;
+
+    --radius: 0.75rem;
+
+    --gradient-primary: linear-gradient(135deg, hsl(343 82% 54%), hsl(14 90% 63%));
+    --gradient-hero: linear-gradient(180deg, hsl(0 0% 99%), hsl(338 100% 96%));
+    
+    --shadow-soft: 0 2px 10px -2px hsl(336 22% 16% / 0.08);
+    --shadow-medium: 0 4px 20px -4px hsl(336 22% 16% / 0.12);
+    --shadow-strong: 0 10px 40px -10px hsl(336 22% 16% / 0.2);
+  }
+
+  .dark {
+    --background: 0 0% 6%;
+    --foreground: 0 0% 96%;
+
+    --card: 0 0% 10%;
+    --card-foreground: 0 0% 96%;
+
+    --popover: 0 0% 10%;
+    --popover-foreground: 0 0% 96%;
+
+    --primary: 343 82% 60%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 350 72% 54%;
+    --secondary-foreground: 0 0% 100%;
+
+    --muted: 0 0% 14%;
+    --muted-foreground: 0 0% 68%;
+
+    --accent: 334 74% 56%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 70% 50%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 0 0% 22%;
+    --input: 0 0% 22%;
+    --ring: 343 82% 60%;
+
+    --gradient-primary: linear-gradient(135deg, hsl(343 82% 60%), hsl(14 90% 63%));
+    --gradient-hero: linear-gradient(180deg, hsl(0 0% 6%), hsl(336 18% 11%));
+    
+    --shadow-soft: 0 2px 10px -2px hsl(0 0% 0% / 0.3);
+    --shadow-medium: 0 4px 20px -4px hsl(0 0% 0% / 0.4);
+    --shadow-strong: 0 10px 40px -10px hsl(0 0% 0% / 0.5);
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-feature-settings: "cv11", "ss01";
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+@layer utilities {
+  .gradient-text {
+    @apply bg-clip-text text-transparent;
+    background-image: var(--gradient-primary);
+  }
+
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}
