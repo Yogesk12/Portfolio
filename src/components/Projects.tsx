@@ -72,7 +72,7 @@ const personalProjects = [
       "Editable and non-editable PPT export"
     ],
     tags: ["Next.js", "React", "Gemini", "Cloudflare Workers AI", "PptxGenJS"],
-    link:"https://aislidechat.netlify.app/"
+    link: "https://aislidechat.netlify.app/"
   },
   {
     title: "AI Chat App",
@@ -145,9 +145,8 @@ const ProjectScreenshotCarousel = ({ images, title }: { images: string[]; title:
               type="button"
               aria-label={`Go to screenshot ${index + 1}`}
               onClick={() => api?.scrollTo(index)}
-              className={`h-2.5 w-2.5 rounded-full transition-all duration-300 ${
-                activeIndex === index ? "scale-125 bg-white" : "bg-white/35 hover:bg-white/70"
-              }`}
+              className={`h-2.5 w-2.5 rounded-full transition-all duration-300 ${activeIndex === index ? "scale-125 bg-white" : "bg-white/35 hover:bg-white/70"
+                }`}
             />
           ))}
         </div>
@@ -179,14 +178,14 @@ const Projects = () => {
                   <Card key={project.title} className="p-6 hover:shadow-medium transition-all hover:-translate-y-1">
                     <h4 className="text-xl font-bold mb-2 flex items-center justify-between">
                       {project.title}
-                     {/* {project.link ? <a
+                      {/* {project.link ? <a
                         href={project.link}
                         target="_blank"
                         rel="noopener noreferrer"
                       >
                         <ExternalLink className="h-4 w-4 text-muted-foreground" />
                       </a> :""}                     */}
-                       </h4>
+                    </h4>
                     <p className="text-muted-foreground mb-4 leading-relaxed">{project.description}</p>
                     <ul className="space-y-1 mb-4 text-sm leading-relaxed">
                       {project.features.map((feature) => (

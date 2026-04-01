@@ -96,9 +96,9 @@ const Contact = () => {
               action="/"
               onSubmit={handleSubmit}
               className="space-y-6"
-            >              
-            <div>
-            <input type="hidden" name="form-name" value="contact" />
+            >
+              <div>
+                <input type="hidden" name="form-name" value="contact" />
                 <label htmlFor="name" className="block text-sm font-medium mb-2">
                   Name
                 </label>
@@ -150,7 +150,7 @@ const Contact = () => {
 
             <div className="mt-8 pt-8 border-t border-border text-center">
               <Button variant="outline" asChild>
-              <a href="/yogesh_res.pdf" download="yogesh_res.pdf">
+                <a href="/yogesh_res.pdf" download="yogesh_res.pdf">
                   Download Resume
                 </a>
               </Button>

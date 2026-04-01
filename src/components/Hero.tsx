@@ -24,7 +24,7 @@ const Hero = () => {
               </h2>
 
               <p className="text-lg sm:text-xl text-muted-foreground max-w-2xl mx-auto">
-                 React | Next.js | Node.js | AI Integrations
+                React | Next.js | Node.js | AI Integrations
               </p>
             </div>
 

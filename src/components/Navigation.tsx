@@ -41,21 +41,20 @@ const Navigation = () => {
     <nav className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-lg border-b border-border">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
-          <button 
+          <button
             onClick={() => scrollToSection('home')}
             className="text-xl font-bold gradient-text"
           >
             YG
           </button>
-          
+
           <div className="hidden md:flex space-x-8">
             {sections.map((id) => (
               <button
                 key={id}
                 onClick={() => scrollToSection(id)}
-                className={`text-sm font-medium transition-colors hover:text-primary ${
-                  activeSection === id ? "text-primary" : ""
-                }`}
+                className={`text-sm font-medium transition-colors hover:text-primary ${activeSection === id ? "text-primary" : ""
+                  }`}
               >
                 {id.charAt(0).toUpperCase() + id.slice(1)}
               </button>
@@ -78,11 +77,10 @@ const Navigation = () => {
               <button
                 key={id}
                 onClick={() => scrollToSection(id)}
-                className={`shrink-0 border-b-2 pb-1 text-sm font-medium transition-colors ${
-                  activeSection === id
+                className={`shrink-0 border-b-2 pb-1 text-sm font-medium transition-colors ${activeSection === id
                     ? "border-primary text-primary"
                     : "border-transparent text-muted-foreground hover:text-primary"
-                }`}
+                  }`}
               >
                 {id.charAt(0).toUpperCase() + id.slice(1)}
               </button>

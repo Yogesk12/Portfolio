@@ -20,7 +20,7 @@ const Experience = () => {
                   <Briefcase className="h-6 w-6 text-white" />
                 </div>
               </div>
-              
+
               <div className="flex-1 space-y-4">
                 <div>
                   <h3 className="text-2xl font-bold">Software Engineer - Full Stack</h3>
@@ -44,27 +44,27 @@ const Experience = () => {
                       <span className="mt-1.5 h-2 w-2 rounded-full bg-gradient-primary flex-shrink-0" />
                       <span>Built AI chatbot integrations for e-commerce platforms including Shopify, BigCommerce, and Wix to automate customer support and enhance user engagement,
                       </span>
-                      </li>
+                    </li>
                     <li className="flex items-start gap-3 rounded-md bg-background/70 px-3 py-2">
                       <span className="mt-1.5 h-2 w-2 rounded-full bg-gradient-primary flex-shrink-0" />
                       <span>Developed scalable REST APIs using Node.js and Fastify for CRM integrations and real-time scheduling systems with tools like Google Calendar, Outlook, and Calendly,
                       </span>
-                      </li>
+                    </li>
                     <li className="flex items-start gap-3 rounded-md bg-background/70 px-3 py-2">
                       <span className="mt-1.5 h-2 w-2 rounded-full bg-gradient-primary flex-shrink-0" />
                       <span> Implemented Zapier-based workflow automation enabling integration with 500+ third-party applications and reducing manual processes,
                       </span>
-                      </li>
+                    </li>
                     <li className="flex items-start gap-3 rounded-md bg-background/70 px-3 py-2">
                       <span className="mt-1.5 h-2 w-2 rounded-full bg-gradient-primary flex-shrink-0" />
                       <span>Built secure backend services using Node.js, Fastify, and MySQL with authentication using JWT and OAuth 2.0,
                       </span>
-                      </li>
-                      <li className="flex items-start gap-3 rounded-md bg-background/70 px-3 py-2">
+                    </li>
+                    <li className="flex items-start gap-3 rounded-md bg-background/70 px-3 py-2">
                       <span className="mt-1.5 h-2 w-2 rounded-full bg-gradient-primary flex-shrink-0" />
                       <span>Contributed to a SaaS-based SEO and digital marketing platform by integrating APIs like DataForSEO, Serpstat, and Google Ads for real-time analytics
                       </span>
-                      </li>
+                    </li>
                   </ul>
                 </div>
               </div>

@@ -8,25 +8,25 @@ const Footer = () => {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col items-center gap-4">
           <div className="flex gap-4">
-            <a 
-              href="mailto:yogeshkumar5701@gmail.com" 
+            <a
+              href="mailto:yogeshkumar5701@gmail.com"
               className="text-muted-foreground hover:text-primary transition-colors"
               aria-label="Email"
             >
               <Mail className="h-5 w-5" />
             </a>
-            <a 
+            <a
               href="https://github.com/Yogesk12"
-              target="_blank" 
+              target="_blank"
               rel="noopener noreferrer"
               className="text-muted-foreground hover:text-primary transition-colors"
               aria-label="GitHub"
             >
               <Github className="h-5 w-5" />
             </a>
-            <a 
+            <a
               href="https://www.linkedin.com/in/yogesh-k-774a98222"
-              target="_blank" 
+              target="_blank"
               rel="noopener noreferrer"
               className="text-muted-foreground hover:text-primary transition-colors"
               aria-label="LinkedIn"
